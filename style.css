@@ -8,11 +8,11 @@ body{
     height: 100vh;
 }
 .size{
-font-size: 2vw;
+font-size: 1.5rem;
 
 }
 .para{
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 
@@ -20,10 +20,10 @@ font-size: 2vw;
     width: 71vw;
     background-color:  #CEA07E;
     border: 5px solid black;
-    height: 25vw;
+    height: 50vh;
     margin:auto;
     position: relative;
-    top: 6vw;
+    top: 10rem;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -37,45 +37,32 @@ font-size: 2vw;
 #input{
     margin: 8px 3px;
     cursor: pointer;
-    width: 12vw;
-    height:2vw ;
+    width: 7rem;
+    height:3rem ;
     border-radius:5px ;
     text-align: center;
-    font-size: 1vw;
+    font-size: 1.5rem;
     margin: auto; 
 }
 #btn{
-    cursor: pointer;
-    border-radius:5px ;
-    width: 5vw;
-    height:2vw ;
-    margin: auto;
-    font-size: 1vw;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 6rem;
+        height: 2.9rem;
+        margin: auto;
+        font-size: 1.5rem;
 }
 
 #restartBtn{
-    cursor: pointer;
-    border-radius:5px ;
-    width: 5vw;
-    height:2vw ;
-    margin: auto;
-    font-size: 1vw;
+        cursor: pointer;
+        border-radius: 5px;
+        width: 6rem;
+        height: 2.9rem;
+        margin: auto;
+        font-size: 1.5rem;
     
 }
-@media (min-width:1000px) and (max-width: 1700px) {
-    #image {
-        margin: 13vw 38vw;
-        position: relative;
-        top: -59rem;
-        left: -29rem;
-        display: none;
-        width: 19vw;
-        height: 30vh;
-    }
-    
-    
-    
-}
+
 #image {
     margin: 13vw 38vw;
     position: relative;
